@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 import { adddata, deldata } from "./context/ContextProvider";
 import { updatedata } from "./context/ContextProvider";
 
-const API_ENDPOINT = window.href;
+const API_ENDPOINT = "";
 
 const Home = () => {
   const [getuserdata, setUserdata] = useState([]);
