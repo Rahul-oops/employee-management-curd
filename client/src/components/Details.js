@@ -9,7 +9,7 @@ import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { NavLink, useParams, useHistory } from "react-router-dom";
 
-const API_ENDPOINT = "http://localhost:5000";
+const API_ENDPOINT = "";
 
 const Details = () => {
   const [getuserdata, setUserdata] = useState([]);

@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { NavLink, useHistory } from "react-router-dom";
 import { adddata } from "./context/ContextProvider";
 
-const API_ENDPOINT = "http://localhost:5000";
+const API_ENDPOINT = "";
 
 const Register = () => {
   const { udata, setUdata } = useContext(adddata);
